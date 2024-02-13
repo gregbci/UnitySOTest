@@ -213,6 +213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 527700d3644bc41b39b890b011e75544, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings: {fileID: 11400000, guid: a54478bcfd5714b9696719fa73ac508c, type: 2}
   counter: {fileID: 11400000, guid: 7b900e2d39b8348dc9d1c26ccff97a1f, type: 2}
   counterText: {fileID: 1507151683}
 --- !u!1 &384532878

@@ -6,9 +6,16 @@ using UnityEngine;
 
 public class Presenter : MonoBehaviour
 {
+    public Settings settings;
     public Counter counter;
 
     public TMP_Text counterText;
+
+    public void Start()
+    {
+        Debug.Log("Presenter: found " + settings.counters.Count + " counters in settings:");
+        settings.counters.ForEach(counter => Debug.Log(counter.countName));
+    }
 
     public void IncrementCounter()
     {
