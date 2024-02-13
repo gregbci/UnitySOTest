@@ -6,7 +6,10 @@ using UnityEngine;
 
 public class Presenter : MonoBehaviour
 {
+    // contains a bunch of Counters
     public Settings settings;
+
+    // one particular Counter to mess with
     public Counter counter;
 
     public TMP_Text counterText;
