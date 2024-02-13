@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d4674052d0a049ce9e91a413d1ef348, type: 3}
-  m_Name: Counter1
+  m_Name: CounterPrefs3
   m_EditorClassIdentifier: 
-  countName: Cabbage
-  count: 19
-  history: 0000000001000000
+  countName: Yam
+  count: 0
+  history: 

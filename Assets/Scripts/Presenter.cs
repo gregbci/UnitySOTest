@@ -20,6 +20,10 @@ public class Presenter : MonoBehaviour
         settings.counters.ForEach(counter => Debug.Log(counter.countName));
     }
 
+    public void OnDestroy()
+    {
+    }
+
     public void IncrementCounter()
     {
         // change the game object

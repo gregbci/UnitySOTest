@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d4674052d0a049ce9e91a413d1ef348, type: 3}
-  m_Name: Counter2
+  m_Name: CounterPrefs2
   m_EditorClassIdentifier: 
   countName: Potato
   count: 0
