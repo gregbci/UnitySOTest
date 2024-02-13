@@ -1,11 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// this will create an entry "Counter" at the top of the create menu to add
-// an instance of the Counter ScriptableObject.
+// CounterPrefs is just a dummy "preferences" object to test setting management
+// within in a Unity application.
+
+// this will create a CounterPrefs for at the top of the create menu to add
+// an instance of the CounterPrefs ScriptableObject.
 [CreateAssetMenu]
-public class Counter : ScriptableObject
+public class CounterPrefs : ScriptableObject
 {
     // Use this to test accesing a list of Counters from another ScriptableObject
     [Tooltip("Counter name")]

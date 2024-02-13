@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: CounterPrefs1
   m_EditorClassIdentifier: 
   countName: Cabbage
-  count: 19
+  count: 16
   history: 0000000001000000

@@ -10,7 +10,7 @@ public class Presenter : MonoBehaviour
     public Settings settings;
 
     // one particular Counter to mess with
-    public Counter counter;
+    public CounterPrefs counter;
 
     public TMP_Text counterText;
 
@@ -22,6 +22,7 @@ public class Presenter : MonoBehaviour
 
     public void OnDestroy()
     {
+        FileManager.WriteToFile("UserSettings.dat", settings.ToJson());
     }
 
     public void IncrementCounter()
